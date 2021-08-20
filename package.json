@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/chesterosoronyas/react-boileplate/issues"
   },
-  "homepage": "https://github.com/chesterosoronyas/react-boileplate#readme"
+  "homepage": "https://github.com/chesterosoronyas/react-boileplate#readme",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
 }
